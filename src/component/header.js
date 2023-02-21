@@ -5,10 +5,9 @@ export default function Header(){
     return(
         <>
         <img src={img} className="absolute -z-10 w-full opacity-10" alt="" />
-        <div className="flex justify-between flex-row content-center p-4 w-3/4 m-auto mt-6 text-xl font-bold">
-           
-           <div className='flex items-center  space-x-5'>
-                <img src={logo} className="w-20" alt="" />
+        <div className="flex justify-between flex-row content-center  w-3/4 m-auto mt-6 text-xl font-bold">
+           <div className='flex items-center space-x-5'>
+                <img src={logo} className="w-24" alt="" />
                 <h2>[IT]car.net</h2>
             </div>
             <div className='flex items-center'>
