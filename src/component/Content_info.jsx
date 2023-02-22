@@ -11,7 +11,7 @@ export default function ContentInfo(){
                     <span className='text-xl'>Suivez le guide!</span>
                 </div>
                 <div className='w-1/2'>
-                    <img src={desk} className="w-full" alt="" />
+                    <img src={desk} className="w-full h-[400px]" alt="" />
                 </div>
             </div>
         </>
