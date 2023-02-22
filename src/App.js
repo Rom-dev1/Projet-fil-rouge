@@ -1,6 +1,7 @@
 import Candidat from "./component/Candidat";
 import ContentInfo from "./component/Content_info";
 import Entreprise from "./component/Entreprise";
+import Formation from "./component/Formation";
 import Header from "./component/header";
 
 
@@ -13,6 +14,7 @@ function App() {
           <div className="bg-slate-100">
             <Candidat/>
             <Entreprise/>
+            <Formation/>
           </div>
           
       </div>
