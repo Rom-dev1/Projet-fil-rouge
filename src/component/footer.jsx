@@ -1,6 +1,7 @@
 import fb from '../img/facebook-icon.svg'
 import tw from '../img/twitter-icon.svg'
 import yt from '../img/youtube-icon.svg'
+import logo from '../img/CMRC_2.png'
 
 export default function Footer(){
     return(
@@ -85,14 +86,14 @@ export default function Footer(){
                 </div>
                 
             </div>
-            <div className="flex w-3/4 m-auto my-10 justify-between" id="footerBottom">
-                <div>
-                    <img src="./img/logo.svg" alt="logo"/>
-                    <h1>thaito Inc.</h1>
+            <div className="flex w-3/4 m-auto my-10 justify-between items-center" id="footerBottom">
+                <div className='flex items-center'>
+                    <img className='w-[100px]' src={logo} alt="logo"/>
+                    <h1>CMRC Inc.</h1>
                 </div>
                 <div>
                     <img src="" alt=""/>
-                    <span>© 2022 Thaito inc. Tous droits réservés</span>
+                    <span>© 2023 CMRC inc. Tous droits réservés</span>
                 </div>
                 <div className="flex space-x-5">
                     <a href="https://fr-fr.facebook.com/">
